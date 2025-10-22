@@ -1,5 +1,5 @@
 // API URL of backend
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://my-to-do-app-6fkc.onrender.com";
 
 // DOM elements
 const taskInput = document.getElementById("taskInput");

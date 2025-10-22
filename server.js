@@ -3,7 +3,7 @@ import cors from "cors";
 import fs from "fs-extra";
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const DATA_FILE = "./tasks.json";
 
 app.use(cors());
